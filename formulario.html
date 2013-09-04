@@ -7,23 +7,26 @@
     </head>
     <body>
          <div>
-             <form action="datos.html" method="GET">
-                 <label for="txtNombre">Nombre</label><br/>
-                 <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
-                 <br/>
-                 <br/>
-                 <label for="txtCorreo">Correo electr&oacute;nico</label><br/>
-                 <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
-                 <br/>
-                 <br/>
-                 <label for="txtAsunto">Asunto</label><br/>
-                 <input type="text" size="40" maxlength="255" id="txtAsunto" name="asunto" />
-                 <br/>
-                 <br/>
-                 <label for="txtMensaje">Mensaje</label><br/>
-                 <textarea name="mensaje" cols="31" rows="10">Escriba su mensaje</textarea>
-                 <br/>
-                 <br/>
+             <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Contacto</legend>
+                     <label for="txtNombre">Nombre</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                     <br/>
+                     <br/>
+                     <label for="txtCorreo">Correo electr&oacute;nico</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtAsunto">Asunto</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAsunto" name="asunto" />
+                     <br/>
+                     <br/>
+                     <label for="txtMensaje">Mensaje</label><br/>
+                     <textarea name="mensaje" cols="31" rows="10">Escriba su mensaje</textarea>
+                     <br/>
+                     <br/>
+                 </fieldset>
                  <input type="submit" name="enviar" value="Guardar" />
              </form>
          </div>
